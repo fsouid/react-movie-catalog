@@ -2,6 +2,9 @@
   "name": "react-movie-catalog",
   "version": "0.1.0",
   "private": true,
+  "overrides": {
+    "postcss-modules-scope": "3.2.0"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.3.1",
     "@fortawesome/free-brands-svg-icons": "^7.3.1",
