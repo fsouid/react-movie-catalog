@@ -14,7 +14,7 @@ const Home = () => {
     <div>
       <header className={styles.navbar}>
         <div className={styles['phone-nav']} id={styles.phoneNav}>
-          <div className={styles['side-menu']} onClick={toggleMenu}>
+          <div className={styles['side-menu']} /* onClick={toggleMenu} */>
             <div></div>
             <div></div>
             <div></div>
@@ -25,7 +25,7 @@ const Home = () => {
             <div></div>
             <div></div>
           </div>
-          <div className={styles['close-btn']} onClick={toggleMenu}>
+          <div className={styles['close-btn']} /* onClick={toggleMenu} */>
             <FontAwesomeIcon icon={faXmark} className={styles['fa-xmark']} />
           </div>
           <div className={styles['menu-overlay']}>
@@ -74,7 +74,7 @@ const Home = () => {
               <button
                 id={styles['search-btn']}
                 className={styles['not-loading']}
-                onClick={startLoading}
+                /* onClick={startLoading} */
               >
                 <FontAwesomeIcon icon={faMagnifyingGlass} className={styles['fa-magnifying-glass']}/>
               </button>
