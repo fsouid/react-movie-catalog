@@ -48,13 +48,13 @@ const Home = () => {
             </Link>
           </div>
           <div className={`${styles.links} ${styles['justify-between']} ${styles['align-center']}`}>
-            <Link to="/search" className={`${styles.link} ${styles['link-main']}`}>
+            <Link to="/search" className={`${styles['nav-link']} ${styles['link-main']}`}>
               Movies
             </Link>
-            <Link to="/" className={styles.link}>
+            <Link to="/" className={styles['nav-link']}>
               TV Shows
             </Link>
-            <Link to="/" className={styles.link}>
+            <Link to="/" className={styles['nav-link']}>
               Watch
             </Link>
           </div>
